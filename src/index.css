@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@utility container {
+  margin : 0 auto ;
+}
+
+@layer components {
+  .btn{
+    @apply p-2 bg-blue-500 hover:bg-blue-600  rounded-xl text-white transition-all duration-300 flex justify-between items-center space-x-1
+  }
+}
+
+@theme{
+  --color-mainColor: #4161DF;  
+}
+html {
+  scroll-behavior: smooth;
+}
